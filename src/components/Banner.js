@@ -49,26 +49,26 @@ export default function Banner() {
           backgroundSize: "cover",
         }}
       >
-        <div className="banner_contents">
-          <h1 className="banner_title">
+        <div className="banner__contents">
+          <h1 className="banner__title">
             {movie.title || movie.name || movie.original_name}
           </h1>
 
-          <div className="banner_buttons">
+          <div className="banner__buttons">
             <button
-              className="banner_button play"
+              className="banner__button play"
               onClick={() => setIsClicked(true)}
             >
               Play
             </button>
-            <button className="banner_button info">More Information</button>
+            <button className="banner__button info">More Information</button>
           </div>
 
-          <h1 className="banner_description">
+          <h1 className="banner__description">
             {truncate(movie.overview, 100)}
           </h1>
         </div>
-        <div className="banner-fadeBottom" />
+        <div className="banner--fadeBottom" />
       </header>
     );
   } else {
