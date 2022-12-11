@@ -104,3 +104,15 @@
 .space {
   margin-left: 4px;
 }
+
+.skeleton_ui {
+  display: block;
+  text-align: center;
+  line-height: 300px;
+}
+
+.error_ui {
+  color: white;
+  text-align: center;
+  line-height: 300px;
+}

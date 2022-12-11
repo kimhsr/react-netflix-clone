@@ -36,7 +36,7 @@ export default function Banner() {
   };
 
   if (movie.length === 0) {
-    return <span>스켈레톤 UI(로딩중)</span>;
+    return <span className="skeleton_ui">스켈레톤 UI(로딩중)</span>;
   }
 
   if (!isClicked) {
@@ -80,14 +80,14 @@ export default function Banner() {
               width="640"
               height="360"
               src={`https://www.youtube.com/embed/${movie?.videos?.results[0]?.key}
-            ?controls=0&autoplay=1&loop=1&mute=1&playlist=${movie.videos.results[0].key}`}
+              ?controls=0&autoplay=1&loop=1&mute=0&playlist=${movie.videos.results[0].key}`}
               title="YouTube video player"
               frameborder="0"
               allow="autoplay; fullscreen"
               allowfullscreen
             ></Iframe>
           ) : (
-            <div>영상이 없거나 오류가 발생하였습니다.</div>
+            <div className="error_ui">영상이 없거나 오류가 발생하였습니다.</div>
           )}
         </HomeContainer>
       </Container>
@@ -102,6 +102,7 @@ const Container = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100vh;
+  background: #111;
 `;
 
 const HomeContainer = styled.div`
