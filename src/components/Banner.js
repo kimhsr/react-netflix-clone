@@ -59,9 +59,9 @@ export default function Banner() {
               className="banner__button play"
               onClick={() => setIsClicked(true)}
             >
-              Play
+              ▶ 재생
             </button>
-            <button className="banner__button info">More Information</button>
+            <button className="banner__button info">상세정보</button>
           </div>
 
           <h1 className="banner__description">
