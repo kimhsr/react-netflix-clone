@@ -87,7 +87,7 @@ const FooterLinkTitle = styled.h1`
 
 const FooterLinkContent = styled.div`
   display: flex;
-  justify-content: space-bewteen;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 35px;
 
