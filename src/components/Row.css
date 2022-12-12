@@ -9,6 +9,7 @@ h2 {
   position: relative;
 }
 .slider__arrow-left {
+  font-size: 30px;
   background-clip: content-box;
   padding: 20px 0;
   box-sizing: border-box;
@@ -26,6 +27,7 @@ h2 {
   visibility: hidden;
 }
 .slider__arrow-right {
+  font-size: 30px;
   padding: 20px 0;
   background-clip: content-box;
   box-sizing: border-box;
