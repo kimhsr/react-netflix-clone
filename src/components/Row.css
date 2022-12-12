@@ -97,26 +97,6 @@ h2 {
   opacity: 1;
 }
 
-.row__arrow-left {
-  position: absolute;
-  top: 0;
-  left: 20px;
-  height: 100%;
-  width: 32px;
-  background: rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-}
-.row__arrow-right {
-  position: absolute;
-  top: 0;
-  right: 0px;
-  height: 100%;
-  width: 32px;
-  background: rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-}
 @media screen and (min-width: 1200px) {
   .row__poster {
     max-height: 160px;
@@ -132,31 +112,4 @@ h2 {
   .row__posterLarge {
     max-height: 280px;
   }
-}
-
-.swiper-pagination {
-  text-align: right !important;
-}
-
-.swiper-pagination-bullet {
-  background: gray !important;
-  opacity: 1 !important;
-}
-
-.swiper-pagination-bullet-active {
-  background: white !important;
-}
-
-.swiper-button-prev {
-  color: white !important;
-}
-
-.swiper-button-next {
-  color: white !important;
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  font-size: 1.3rem !important;
-  font-weight: 600 !important;
 }
