@@ -15,16 +15,27 @@
   background-color: #111;
 }
 
-.nav_logo {
+.nav__logo {
   position: fixed;
   left: 40px;
   width: 100px;
   object-fit: contain;
 }
 
-.nav_avatar {
+.nav__avatar {
   position: fixed;
   right: 40px;
   width: 30px;
   object-fit: contain;
+}
+
+.nav__input {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(0, 0, 0, 0.562);
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  border: none;
 }
