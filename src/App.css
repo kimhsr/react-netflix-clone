@@ -4,3 +4,8 @@
 .App {
   background: #111;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
