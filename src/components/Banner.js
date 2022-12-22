@@ -36,7 +36,7 @@ export default function Banner() {
   };
 
   if (movie.length === 0) {
-    return <span className="skeleton_ui">스켈레톤 UI(로딩중)</span>;
+    return <span className="skeleton_ui">로딩중</span>;
   }
 
   if (!isClicked) {
