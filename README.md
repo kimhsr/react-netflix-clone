@@ -8,4 +8,4 @@ https://kimhsr.github.io/react-netflix-clone
 React.js, Styled Component, The Movie DB API, react-router, swiper
 
 # Overview
-<img width="80%" src="https://user-images.githubusercontent.com/97604805/209692508-4a55de5e-4cb1-4d7f-8da7-a9a430b696df.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/97604805/209760556-d7f38eb2-5cd3-4d17-b281-7ead8ca98cf7.png"/>
